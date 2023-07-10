@@ -112,6 +112,8 @@ margin-bottom: 20px;
   display: flex;
   align-items: center;
   gap: 5px;
+  border-right: 2px solid red;
+  padding-right: 20px;
 }
 .btn-fourth{
  padding: 12px 20px;
@@ -129,4 +131,10 @@ margin-bottom: 20px;
   color: white;
   padding: 10px;
   width: 50%;
+}
+.btn-five{
+ padding: 12px 20px;
+  background-color:white;
+  color: black;
+  padding-right: 20px;  
 }
