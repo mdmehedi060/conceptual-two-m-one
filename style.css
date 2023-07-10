@@ -24,4 +24,109 @@ background-blend-mode: overlay;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+text-align: center;
+display: flex;
+align-items: center;
+}
+.banner-info{
+margin-left: 150px;
+}
+.primary{
+  color: red;
+}
+.title{
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+}
+.description{
+  color: white;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+.btn-primary{
+  padding: 12px 20px;
+  border: none;
+  background-color: red;
+  color: white;
+}
+.btn-secoend{
+padding: 12px 20px;
+  border: none;  
+}
+.btn-thired{
+  padding: 12px 20px;
+  border: none;
+  background-color: red;
+  color: white;
+}
+.service-continer{
+  height: 100vh;
+background-image: url("./image/footer-bg.png"),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+background-blend-mode: overlay;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+align-items: center;
+justify-content: space-around;
+padding: 20px;
+}
+.icon{
+width: 70px;
+margin-bottom: 20px;
+}
+.box{
+  width: 150px;
+  height: 100px;
+  padding: 50px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  /* box-shadow: 4px 4px 4px gray; */
+}
+.service-continer{
+  display: flex;
+}
+.service-description{
+  width: 50%;
+}
+.first-two-box{
+  display: flex;
+  gap: 3px;
+  margin-top: 5px;
+}
+.author-img{
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+.author-container{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.profile-container{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.btn-fourth{
+ padding: 12px 20px;
+  border: none;
+  background-color:white;
+  color: black;
+  padding-right: 20px; 
+}
+.service-description{
+  color: white;
+  padding: 10px;
+  width: 50%;
+}
+.manu-list{
+  color: white;
+  padding: 10px;
+  width: 50%;
 }
